@@ -1,0 +1,164 @@
+.parent{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   flex-wrap: wrap;
+   height: 700px;
+   width: 100%;
+   gap:40px;
+}
+
+.child_container{
+   background-color: aqua;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box1{
+   height: 300px;
+   width: 250px;
+   background-color: cadetblue;
+
+   transition: transform 1.5s;
+}
+.box1:hover{
+   background-color: brown;
+   transform: translateX(20px);
+   cursor: pointer;
+}
+
+.box2{
+   height: 300px;
+   width: 250px;
+   background-color: cadetblue;
+
+   transition: transform 1.5s;
+}
+
+.box2:hover{
+   background-color: brown;
+   transform: translateX(-20px);
+   cursor: pointer;
+}
+
+.box3{
+   height: 300px;
+   width: 250px;
+   background-color: cadetblue;
+   transition: transform 1.5s;
+}
+
+.box3:hover{
+   background-color: brown;
+   transform: translateY(-20px);
+   cursor: pointer;
+}
+
+.box4{
+   height: 300px;
+   width: 250px;
+   background-color: cadetblue;
+   transition: transform 1.5s;
+}
+
+.box4:hover{
+   background-color: brown;
+   transform: translateY(20px);
+   cursor: pointer;
+}
+
+.box5{
+   height: 300px;
+   width: 250px;
+   background-color: cadetblue;
+   transition: transform 1.5s;
+}
+
+.box5:hover{
+   background-color: brown;
+   transform: scale(1.2);
+   cursor: pointer;
+}
+
+.box6{
+   height: 300px;
+   width: 250px;
+   background-color: cadetblue;
+   transition: transform 1.5s;
+}
+
+.box6:hover{
+   background-color: brown;
+   transform: scale(0.5);
+   cursor: pointer;
+}
+
+
+.box7{
+   height: 300px;
+   width: 250px;
+   background-color: cadetblue;
+   transition: transform 1.5s;
+   /* animation-duration: 2s ; */
+}
+
+.box7:hover{
+   background-color: brown;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.box8{
+   height: 300px;
+   width: 250px;
+   background-color: cadetblue;
+   transition: transform 1.5s;
+}
+.box8:hover{
+   background-color: brown;
+   transform:scaleX(0.5);
+   cursor: pointer;
+}
+
+.box9{
+   height: 300px;
+   width: 250px;
+   background-color: cadetblue;
+   transition: transform 1.5s;
+}
+
+.box9:hover{
+   background-color: brown;
+   transform:scaleY(1.2);
+   cursor: pointer;
+}
+
+.box10{
+   height: 300px;
+   width: 250px;
+   background-color: cadetblue;
+   transition: transform 1.5s;
+}
+
+
+.box10:hover{
+   background-color: brown;
+   transform:rotate(30deg);
+   cursor: pointer;
+}
+
+
+@media screen and (max-width:340px){
+   .child_container{
+      width: 70px;
+      height: 100px;
+      text-align: center;
+   }
+
+   .box10{
+      display: none;
+   }
+   
+}
